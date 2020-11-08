@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import shutil
 import os
 import sys
+import shutil
 
 
 def check_reboot():
@@ -26,7 +26,7 @@ def main():
         print("Disk full.")
         sys.exit(1)
 
-    print("everything is ok.")
+    print("Everything is ok.")
     sys.exit(0)
 
 main()
